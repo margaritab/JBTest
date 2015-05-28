@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server"></asp:ContentPlaceHolder>
+    </title>
+    <link href="Styles/siteStyle.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper">
+        <div class="header">
+                <img id="jbtest-logo" src="https://dl.dropboxusercontent.com/u/229188151/pic/jbt_logo.png" />
+
+            <asp:ContentPlaceHolder ID="ContantHeader" runat="server">
+            </asp:ContentPlaceHolder>
+           
+        </div>
+        <div class="redLine"></div> 
+        <div class="contant">
+            <asp:ContentPlaceHolder id="ContentBody" runat="server">    
+            </asp:ContentPlaceHolder>
+        </div> 
+        <div class="redLine"></div> 
+        <div class="footer">
+              <img id="johnbryce-logo" src="https://dl.dropboxusercontent.com/u/229188151/pic/johnbryce_logo.png" />
+              
+              <div id="copyright">
+			      <label id="copyrightJB" style="color:white">JBTest</label>
+			      <img id="copyright-pic" src="https://dl.dropboxusercontent.com/u/229188151/pic/copyright.png"/> 
+		      </div>
+                <img id="microsoft-prometric-logo" src="https://dl.dropboxusercontent.com/u/229188151/pic/mc-pro-logo-light.png"/>
+        </div>  
+    </div>
+    </form>
+</body>
+</html>

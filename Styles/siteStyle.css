@@ -1,0 +1,556 @@
+﻿body {
+    direction: rtl;
+    padding-bottom: 40px;
+    font-family: David;
+}
+
+html {
+    background: url(https://dl.dropboxusercontent.com/u/49247793/greyBackground2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Set Wrapper*/
+.wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: right;
+}
+/*End Wrapper*/
+
+/*Set Header*/
+.header {
+    height: 70px;
+    background-color: rgb(96,96,96);
+    margin: 0px 0px 0px;
+    color: white;
+    border-radius: 5px 5px 0px 0px;
+}
+
+    .header ul {
+        margin-right: -20px;
+        list-style-type: none;
+        float: right;
+    }
+
+        .header ul li {
+            float: right;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 10px;
+            display: block;
+            border-left: 1px solid white;
+            height: 20px;
+        }
+
+            .header ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .header ul li:hover {
+                color: black;
+                border-radius: 5px 0px 0px 5px;
+                background-color: rgb(240,240,240);
+            }
+
+            .header ul li a:hover {
+                color: black;
+                border-radius: 5px 0px 0px 5px;
+                background-color: rgb(240,240,240);
+            }
+
+#jbtest-logo {
+    padding-right: 10px;
+    float: right;
+    height: 67px;
+    width: 120px;
+}
+/*End Header*/
+
+/*Set Content*/
+.contant {
+    width: 80%;
+    background-color: rgb(240,240,240);
+    border: 1px solid rgb(224, 224, 224);
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 150px;
+    min-height: 450px;
+}
+/*End Content*/
+
+
+/*Set Footer*/
+.footer {
+    height: 70px;
+    background-color: rgb(96,96,96);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.redLine {
+    background-color: rgb(240,0,0);
+    width: 100%;
+    height: 7px;
+}
+
+#johnbryce-logo {
+    padding-left: 5px;
+    float: left;
+    padding-top: 10px;
+    width: 200px;
+}
+
+h1 {
+    color: rgb(240,0,0);
+    text-align: center;
+}
+
+#welcomeText {
+    text-align: center;
+    margin: 50px;
+}
+
+#microsoft-prometric-logo {
+    float: right;
+    padding-right: 5px;
+    height: 67px;
+}
+
+#copyright {
+    float: left;
+    padding-top: 25px;
+    padding-left: 400px;
+}
+
+#copyright-pic {
+    height: 12px;
+    width: 20px;
+    padding-bottom: -5px;
+}
+
+#copyrightJB {
+    padding-bottom: 10px;
+}
+
+/*set entrence*/
+.entrence {
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(216,216,216);
+    color: black;
+    margin-top: 50px;
+    margin-right: 350px;
+    padding: 0px 30px 30px 30px;
+}
+
+#studentEntrance {
+    float: right;
+}
+/*
+#password {
+    color: red;
+    padding: 50px;
+}*/
+
+#entrenceLinks {
+    text-align: center;
+    color: black;
+}
+
+    #entrenceLinks a {
+        color: black;
+    }
+
+#confirm {
+    margin-right: 85px;
+}
+/*End entrence*/
+
+/*set regester Student*/
+.leftReg {
+    margin-top: 30px;
+    float: left;
+    margin-left: 150px;
+}
+
+.rightReg {
+    margin-top: 30px;
+    margin-right: 150px;
+    float: right;
+}
+
+.firstLabels {
+    float: right;
+    font-size: 16px;
+    line-height: 14px;
+}
+
+.firstTB {
+    float: left;
+}
+
+.secondLabels {
+    float: right;
+    font-size: 16px;
+}
+
+.secondTB {
+    float: left;
+}
+
+#RegButton {
+    margin-right: 450px;
+}
+
+#regulations {
+    margin-top: 350px;
+    margin-right: 140px;
+}
+
+    #regulations a {
+        color: black;
+    }
+/*End regester*/
+/*set links*/
+#picLink {
+    margin-top: 70px;
+}
+
+#johnPic {
+    margin-right: 15px;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(240,0,0);
+}
+
+#microPic {
+    margin-right: 35px;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(240,0,0);
+}
+
+#promPic {
+    margin-left: 15px;
+    float: left;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(240,0,0);
+}
+/*End links*/
+/*set contactUs*/
+#contactUsLables {
+    margin-top: 50px;
+    margin-right: 250px;
+}
+
+#contacting * {
+    vertical-align: top;
+}
+
+#sendButton {
+    margin-right: 250px;
+}
+/*End contactUs*/
+#star {
+    color: rgb(240,0,0);
+}
+
+/*student page*/
+
+/*set student main*/
+
+.tableHeadline {
+    text-align: center;
+}
+
+table.tables {
+    margin-right: auto;
+    margin-left: auto;
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+    table.tables td {
+        border: 1px solid black;
+        padding: 2px 10px 10px 10px;
+    }
+
+    table.tables th {
+        background-color: grey;
+        border: 1px solid black;
+    }
+
+
+    table.MainTables {
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+    table.MainTables td {
+        border: 1px solid black;
+        padding: 2px 10px 10px 10px;
+    }
+
+    table.MainTables th {
+        background-color: grey;
+        border: 1px solid black;
+    }
+
+
+
+/*End Student main*/
+/*set update details*/
+#StudentUpdateButton {
+    margin-top: 350px;
+    margin-right: 500px;
+}
+/*End update details*/
+
+/*End student*/
+
+/*set System*/
+/*set system Main*/
+#search {
+    background-color: rgb(240,240,240);
+    border-radius: 5px 0px 5px 0px;
+    color: black;
+    margin-right: 200px;
+}
+/*end system main*/
+
+/*set system report*/
+#report {
+    margin-right: 210px;
+}
+
+/*end set system report*/
+/*end set system*/
+
+/*admin*/
+#RegAdminButton {
+    margin: 350px 500px 20px 0px;
+}
+
+#resetAdminPassword
+{
+    margin:50px 350px 20px 0px;
+}
+#AdminPasswordButtons
+{
+    margin:50px 470px 20px 0px;
+
+}
+
+/**end admin*/
+
+
+/*Calender*/
+#calenderButtons {
+    margin: 50px 50px 0px 50px;
+}
+
+#nextB {
+    float: left;
+}
+
+#prevB {
+    float: right;
+}
+
+#monthNameLB {
+    margin: 20px 500px 0px 500px;
+    font-size: 20px;
+    color: rgb(240,0,0);
+}
+
+
+#calTableDiv {
+    margin: 15px 135px 0px 0px;
+}
+
+table.calenderTable {
+    border: 1px solid black;
+}
+
+
+    table.calenderTable th {
+        background-color: white;
+        border: 1px solid black;
+    }
+
+    table.calenderTable td {
+        border: 1px solid black;
+        padding: 2px 10px 50px 10px;
+    }
+
+        table.calenderTable td:hover {
+            color: black;
+            background-color: white;
+        }
+
+#regToTest {
+    margin: 30px 150px 30px 150px;
+}
+
+/*End Calender*/
+
+#rightLable{
+    float:right;
+    font-weight:bold;
+}
+
+#leftLable {
+    float:left;
+    font-weight:bold;
+}
+#upperLables {
+    margin:10px 10px 0px 10px;
+}
+
+#studentTestTableDetails
+{
+    margin-bottom:50px;
+}
+
+#printButton
+{
+    margin:350px 500px 30px 0px;
+}
+
+#messageBox
+{
+    float: left;
+    margin: 0px 20px 0px 20px;
+    text-align:center;
+    width:20%;
+}
+
+#messageContent
+{
+    resize:none;
+    font-family: Tahoma;
+}
+
+#tablesStudentMain
+{
+    float: right;
+    margin-right:50px;
+    width: 70%;
+}
+
+#middleLable{
+    margin: 150px 500px 0px 0px;
+}
+
+#coursesButtons {
+    margin-top:50px;
+}
+
+#createNewCourseButton {
+    margin: 200px 500px 0px 0px;
+}
+
+#createNewTestButton
+{
+    margin: 200px 500px 0px 0px;
+}
+#messageButtons
+{
+     margin: 50px 480px 0px 0px;
+}
+
+#messageArea
+{
+    margin:40px 350px 0px 0px;
+}
+
+
+#createLeftLable{
+    margin-top: 40px;
+    float: left;
+    margin-left: 200px;
+}
+
+#createRightLable {
+    margin-top: 40px;
+    margin-right: 200px;
+    float: right;
+}
+
+#updateCourse{
+    margin: 70px 50px 40px 40px;
+    text-align:center;
+}
+
+#courseUpdateButtons{
+    margin: 100px 500px 40px 40px;
+}
+
+#messageButtons
+{
+    margin: 100px 500px 40px 40px;
+}
+
+@media print{
+    
+    .header, .footer, .redLine ,#upperLables, #printButton  /*what not to display*/
+    {
+        display:none;
+    }
+    .contant
+    {
+        border: none;
+        background-color:white;
+    }
+    .rightReg
+    {
+        float:right;
+        margin:auto;
+    }
+    .leftReg
+    {
+        float:left;
+        margin:auto;
+    }
+    @page 
+    {
+        size: landscape;
+        margin:2px;
+    }
+}
+
+#staffMessages
+ {
+   width:80%;
+   margin-right:20px;
+}
+
+#confirmUpdateLB
+{
+    color: red;
+}
+
+#resetPassword
+{
+    margin:30px 380px 0px 0px;
+}
+#resetPassButton
+{
+     margin:30px 480px 0px 0px;
+}
+
+/*admin*/
+#adminSearch {
+    background-color: rgb(240,240,240);
+    border-radius: 5px 0px 5px 0px;
+    color: black;
+    margin-right: 500px;
+}

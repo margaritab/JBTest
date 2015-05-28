@@ -1,0 +1,31 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="studentSchedulePage.aspx.cs" Inherits="studentSchedulePage" %>
+
+<%@ Register Src="~/calanderPage.ascx" TagPrefix="uc1" TagName="calanderPage" %>
+
+
+<asp:Content ID="Content1" ContentPlaceHolderID="title" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContantHeader" Runat="Server">
+     <ul>
+        <li><a href="studentMainPage.aspx">דף הבית</a></li>
+        <li><a href="studentRegToTestPage.aspx">הרשמה למבחן</a></li>
+        <li><a href="studentSchedulePage.aspx">צפייה בלו"ז</a></li>
+        <li><a href="studentUpdateDetailsPage.aspx">עדכון פרטים אישיים</a></li>
+        <li><a href="studentTestHistoryPage.aspx">היסטורית מבחנים</a></li>
+        <li><asp:LinkButton ID="LogoutBtn" runat="server" OnClick="LogoutBtn_Click">התנתק</asp:LinkButton></li>
+    </ul>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentBody" Runat="Server">
+     <div id="upperLables">
+        <div id="rightLable">
+            <asp:Label ID="connectedUserLable" runat="server" Text="Label"></asp:Label>
+        </div>
+        <div id="leftLable">
+            <asp:Label ID="dateLable" runat="server" Text="Label"></asp:Label>
+        </div>
+    </div>
+    <uc1:calanderPage runat="server" ID="calanderPage" />
+</asp:Content>
+
